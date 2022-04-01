@@ -26,8 +26,10 @@ The notebook in this project uses a TCP socket hosted on the Jetson, making it p
     The guide also describes how to flash the required Jetbot image onto an SD card used for the project.
     
 ### Client computer: 
-    The project was built and ran in Pycharm on the client side using the packages: opencv-python and mediapipe that can be downloaded for the project interpreter
-
+    The project was built and ran in Pycharm on the client side using the packages: 
+    opencv-python and mediapipe that can be downloaded for the project interpreter
+    
+    Mediapipe documentation used in this project: https://google.github.io/mediapipe/solutions/hands.html 
 ## Usage Instructions
     
 ### JETANK: 
