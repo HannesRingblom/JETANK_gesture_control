@@ -6,11 +6,10 @@ The notebook in this project uses a TCP socket hosted on the Jetson, making it p
 
 ## Table of Contents
 
-- [Hardware Requirements](#requirements)
-- [Software Requirements](#requirements)
-- [Setup](#setup)
-- [Usage Instructions](#usage)
-- [Maintainers](#maintainers)
+- Hardware Requirements
+- Setup / Software Requirements
+- Usage Instructions
+- Maintainers
 
 ## Hardware Requirements
 
