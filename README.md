@@ -54,8 +54,9 @@ The notebook in this project uses a TCP socket hosted on the Jetson, making it p
         Two thumbs down: Move arm slightly backwards/up
         Left thumb up, right thumb down: Move arm slightly forward/down
         Right thumb up, left thumb down: Move arm slightly backwards/up
-
-![](Example_image.JPG)
+        
+Project video snapshot (video link: https://youtu.be/xWZBrWb5XTI)
+![)](Example_image.JPG)
 
 ## Maintainers
 
