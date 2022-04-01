@@ -59,5 +59,5 @@ Project video snapshot (video link: https://youtu.be/xWZBrWb5XTI)
 ![)](Example_image.JPG)
 
 ## Maintainers
-
-    [Hannes @HannesRingblom](https://gitlab.com/HannesRingblom)
+    
+[Hannes @HannesRingblom](https://github.com/HannesRingblom)
