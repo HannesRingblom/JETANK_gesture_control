@@ -14,15 +14,13 @@ The notebook in this project uses a TCP socket hosted on the Jetson, making it p
 
 ## Hardware Requirements
 
-    ```sh
     NVIDIA Jetson Nano Developer Kit
     JETANK AI Kit
     18650 Batteries (length less than 67mm)
     USB A to micro USB cable
-    ```
 
 ## Setup / Software Requirements 
-    ```sh
+    
     JETANK:
     The following guide should be followed to assemble the Jetson Nano and JETANK
     https://www.youtube.com/watch?v=qNy1hulFk6I
@@ -30,14 +28,13 @@ The notebook in this project uses a TCP socket hosted on the Jetson, making it p
     
     Client computer: 
     The project was built and ran in Pycharm on the client side using the packages: opencv-python and mediapipe that can be downloaded for the project interpreter
-    ```
 
 ## Usage Instructions
-    ```sh
+    
     JETANK: 
     - By following the guide in Setup, a wifi connection can be established. The IP-address of the Jetson Nano should then be displayed on the lcd. 
-    - The guide further shows that having the client being connected to the same network enables easy access to the JETANK interface through entering its IP-adress and port 8888 in a web browser.
-    - With the interface open, upload the notebook 'jetank_side.ipynb' and run the cells to open the TCP socket and start the camera feed. (The last cell will stop the camera) 
+    - The guide further shows that having the client being connected to the same network enables easy access to the JETANK interface through entering its IP-adress     and port 8888 in a web browser.
+    - With the interface open, upload the notebook 'jetank_side.ipynb' and run the cells to open the TCP socket and start the camera feed. (The last cell will stop     the camera) 
     
     Client PC:
     - Clone the project and open it in Pycharm, there in project settings download the packages opencv-python and mediapipe
@@ -58,7 +55,6 @@ The notebook in this project uses a TCP socket hosted on the Jetson, making it p
         Two thumbs down: Move arm slightly backwards/up
         Left thumb up, right thumb down: Move arm slightly forward/down
         Right thumb up, left thumb down: Move arm slightly backwards/up
-    ```
 
 ## Maintainers
 
