@@ -1,15 +1,26 @@
 # JETANK Gesture Control
 
-This project lets the user control a NVIDIA JETANK remotely using hand gestures and the video feed of the Jetson Nano. Using a computer connected to the same network as the Jetson, the JETANK interface can be connected to through its IP-adress. Jupyter there displays Notebooks possible to run and where the one of this project can be added. 
+This project lets the user control a JETANK remotely using hand gestures and the video feed of the Jetson Nano. Using a computer connected to the same network as the Jetson, the JETANK interface can be connected to through its IP-adress. Jupyter there displays Notebooks possible to run and where the one of this project can be added. 
 
 The notebook in this project uses a TCP socket hosted on the Jetson, making it possible for a client to connect and send command on how to steer the robot. Camera feed from the Jetson is also shown through the Notebook using a widget display.
 
 ## Table of Contents
-
+    
+    - Purpose of Project
     - Hardware Requirements
     - Setup / Software Requirements
     - Usage Instructions
     - Maintainers
+
+## Purpose of Project
+
+    Through the use of computer vision and machine learning, many interesting and important things can be made and problems can be solved. This Project uses the
+    computer vision of a Jetson Nano combined with Machine learning from Mediapipe. Mediapipe provides the possibility for gesture controlling and with the Jetson Nano
+    integrated in a JETANK the computer vision can be used in many ways. This Project was done to highlight a certain way that these embedded solutions can be
+    utilized, namely for remotely control a robot from a distance. This could be especially helpful in places such as warehouses or in places where the conditions
+    might make it indurable for a human. The concept can also be used as a sort of helper robot for people with impaired movement, giving a interactive way of
+    retrieving objects of any kind. This project specifically uses quite simple commands and a limited robot to showcase the potential use and the easy to learn and
+    adapt concept.
 
 ## Hardware Requirements
 
